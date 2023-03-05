@@ -19,11 +19,24 @@
     mix-blend-mode: difference;
   }
 
-  #enter {
+  #middle {
+    color: white;
     /* Centering */
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 150%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+header {
+    /* background: #fff;
+    background-image: none; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999px;
+    height: 100px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+ }

@@ -4,15 +4,15 @@ function init () {
   const config = {
     container: '#trollbox',
     firebase: {
-      apiKey: 'AIzaSyAW50YNzjI4LAQo4kEWb0UwhegCTG9hSf8',
-      authDomain: 'trollbox-d802b.firebaseapp.com',
-      databaseURL: 'https://trollbox-d802b.firebaseio.com',
-      projectId: 'trollbox-d802b',
-      storageBucket: 'trollbox-d802b.appspot.com',
-      messagingSenderId: '770197609793'
+      apiKey: 'AIzaSyDXUBjOj50SnRsQ2sn7V2Y9fyizNGOjZkg',
+      authDomain: 'rickturpbox.firebaseapp.com',
+      databaseURL: 'https://rickturpbox-default-rtdb.firebaseio.com',
+      projectId: 'rickturpbox',
+      storageBucket: 'rickturpbox.appspot.com',
+      messagingSenderId: '128242437670'
     },
     channel: 'demo',
-    user: 'anonymous',
+    user: 'anon',
     delayRender: false
   }
 

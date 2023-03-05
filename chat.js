@@ -21,7 +21,7 @@
       }
     
       onLoad() {
-        this.config.user = this.config.user || 'anonymous';
+        this.config.user = this.config.user || 'anon';
         this.initFirebase();
     
         if (!this.config.delayRender) {
@@ -112,7 +112,7 @@
         const html = `
           <div class="TrollboxContainer">
             <div class="TrollboxHeader">
-              Trollbox
+              chat
             </div>
             <div class="TrollboxMessages">
               <ul class="TrollboxMessagesList">
