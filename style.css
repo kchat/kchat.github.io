@@ -20,13 +20,13 @@ mix-blend-mode: difference;
 
 
 a {
-    letter-spacing: 0.25em;
+    letter-spacing: 0.2em;
     color: aqua;
 }
 
 
 a:hover {
-    letter-spacing: 0.25em;
+    letter-spacing: 0.4em;
 }
 
 #middle {
