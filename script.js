@@ -3,12 +3,12 @@ function radint(max) {
   }
 
 function og_background(i) {
-    document.body.style.backgroundImage = `linear-gradient(rgb(${radint(255)}, ${radint(255)}, ${radint(255)}), transparent 100%)`;
+    document.body.style.backgroundImage = `linear-gradient(rgb(${radint(255)}, ${radint(255)}, ${radint(255)}), transparent 80%)`;
 }
 
 
 function radground(a, b, c) {
-    document.body.style.backgroundImage = `linear-gradient(rgb(${a}, ${b}, ${c}), transparent 100%)`;
+    document.body.style.backgroundImage = `linear-gradient(rgb(${a}, ${b}, ${c}), transparent 80%)`;
 }
 
 
@@ -16,11 +16,11 @@ var switched = false;
 function switchar() {
     if (!switched) {
         document.body.style.backgroundImage =
-        "url(assets/06f2a8bbb183279679087df1b3138c33.png)";
+        "url(assets/3013.png)";
         switched = true;
     } else {
         document.body.style.backgroundImage =
-        "url(assets/0119cd6dae94c6ef2dee74f59d745a37.png)";
+        "url(assets/3012.png)";
         switched = false;
 
     }
