@@ -18,6 +18,13 @@ background-size: 100% 100%;
 mix-blend-mode: difference;
 }
 
+
+a {
+    letter-spacing: 0.25em;
+    color: aqua;
+}
+
+
 a:hover {
     letter-spacing: 0.25em;
 }
