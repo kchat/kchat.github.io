@@ -112,7 +112,7 @@
         const html = `
           <div class="TrollboxContainer">
             <div class="TrollboxHeader">
-              chat
+              &ltchat&gt
             </div>
             <div class="TrollboxMessages">
               <ul class="TrollboxMessagesList">
@@ -120,7 +120,7 @@
             </div>
             <div class="TrollboxMessage">
               <form class="TrollboxForm">
-                <input class="TrollboxInput" type="text" name="message" placeholder="Message (press enter to submit)" autocomplete="off" />
+                <input class="TrollboxInput" type="text" name="message" placeholder="message" autocomplete="off" />
               </form>
             </div>
           </div>
